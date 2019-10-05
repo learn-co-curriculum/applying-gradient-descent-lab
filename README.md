@@ -456,7 +456,7 @@ initial_regression_trace = trace_values(budgets, estimated_revenues, mode = 'lin
 plot([revenues_per_budgets_trace, initial_regression_trace], revenues_layout)
 ```
 
-By now we should be able to guess the next step: quantify how well this line matches our data.  We'll write a function called `regression_revenue_error` that, provided a movie and an `m` and `b` value of a regression line, returns the difference between our `initial_regression_lines`'s expected revenue and the actual revenue error.
+By now we should be able to guess the next step: quantify how well this line matches our data.  We'll write a function called `regression_revenue_error` that, provided a movie and an `m` and `b` value of a regression line, returns the difference between our `initial_regression_lines`'s expected revenue and the actual revenue.
 
 
 ```python
